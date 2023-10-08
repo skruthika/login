@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrfSdWv9tWkffTLjNiqRzxa0uOsPVH1SANCw&usqp=CAU');
+    background-size: cover; /* Adjust to 'contain' or other values as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #070000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #cbb615;
+}
+p{
+    color: #cbb615;   
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
